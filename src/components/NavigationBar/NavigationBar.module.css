@@ -1,0 +1,28 @@
+.navWrapper {
+  width: 100%;
+
+  padding: 10px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+
+  background-color: #067793;
+}
+
+.link {
+  padding: 5px 15px;
+
+  font-size: 18px;
+  color: #fff;
+
+  border: 1px solid #fff;
+  border-radius: 6px;
+}
+
+.active {
+  color: #ff9e29;
+
+  border: 1px solid #ff9e29;
+}

@@ -1,0 +1,10 @@
+.movieWrapper {
+  width: 100%;
+
+  display: flex;
+  column-gap: 20px;
+}
+
+.itemImg {
+  width: 300px;
+}
