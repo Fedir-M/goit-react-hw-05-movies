@@ -3,13 +3,14 @@ import { Route, Routes } from 'react-router-dom';
 import MainLayout from './MainLayout/MainLayout';
 
 import s from './App.module.css';
+import NotFound from './NotFound';
 
 const Home = lazy(() => import('pages/Home'));
 const Movies = lazy(() => import('pages/Movies'));
 const MovieDetails = lazy(() => import('pages/MoviesDetails'));
 const Cast = lazy(() => import('./Cast'));
 const Reviews = lazy(() => import('./Reviews'));
-const NotFound = lazy(() => import('./NotFound'));
+// const NotFound = lazy(() => import('./NotFound'));
 
 export const App = () => {
   return (

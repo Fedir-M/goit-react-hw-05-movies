@@ -1,0 +1,22 @@
+.notFound {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+  padding-top: 20px;
+}
+
+.img {
+  max-width: 700px;
+}
+
+.chealseSorry {
+  color: rgb(195, 17, 17);
+}
+
+.chealseColor {
+  color: rgb(12, 12, 169);
+}
